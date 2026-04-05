@@ -1,0 +1,860 @@
+{
+  "dataset": "combustion",
+  "description": "Combustion simulation dataset with 10 transfer function regions",
+  "version": "1.0",
+  "total_gaussians": 536987,
+  "components": [
+    {
+      "semantic_id": 1,
+      "name": "low_temperature_region",
+      "parent": "cool_zones",
+      "aliases": [
+        "低温区",
+        "cool region",
+        "cold zone"
+      ],
+      "description": "Low temperature region of the combustion field",
+      "gaussian_count": 53012,
+      "index_range": [
+        0,
+        53011
+      ],
+      "centroid": [
+        0.003053298918530345,
+        0.002217761240899563,
+        -0.010670838877558708
+      ],
+      "bbox": {
+        "min": [
+          -0.5785952210426331,
+          -0.15332673490047455,
+          -0.5938493013381958
+        ],
+        "max": [
+          0.5729017853736877,
+          0.15850304067134857,
+          0.6280651688575745
+        ]
+      },
+      "default_visual": {
+        "color": [
+          0.0,
+          0.2,
+          0.8
+        ],
+        "opacity": 1.0
+      },
+      "custom_visual": null
+    },
+    {
+      "semantic_id": 2,
+      "name": "medium_low_temperature",
+      "parent": "cool_zones",
+      "aliases": [
+        "中低温区",
+        "warm region"
+      ],
+      "description": "Medium-low temperature transition zone",
+      "gaussian_count": 54030,
+      "index_range": [
+        53012,
+        107041
+      ],
+      "centroid": [
+        0.024599922820925713,
+        0.0017370046116411686,
+        -0.016365626826882362
+      ],
+      "bbox": {
+        "min": [
+          -0.5716424584388733,
+          -0.15029926598072052,
+          -0.5867840051651001
+        ],
+        "max": [
+          0.5688868165016174,
+          0.15473636984825134,
+          0.5653911828994751
+        ]
+      },
+      "default_visual": {
+        "color": [
+          0.0,
+          0.6,
+          0.6
+        ],
+        "opacity": 1.0
+      },
+      "custom_visual": null
+    },
+    {
+      "semantic_id": 3,
+      "name": "medium_temperature",
+      "parent": "transition_zones",
+      "aliases": [
+        "中温区",
+        "mid temperature"
+      ],
+      "description": "Medium temperature region",
+      "gaussian_count": 54371,
+      "index_range": [
+        107042,
+        161412
+      ],
+      "centroid": [
+        0.02447287179529667,
+        0.0009673463646322489,
+        -0.0010180898243561387
+      ],
+      "bbox": {
+        "min": [
+          -0.5703094005584717,
+          -0.15437135100364685,
+          -0.5753306150436401
+        ],
+        "max": [
+          0.5699609518051147,
+          0.14741887152194977,
+          0.5585727095603943
+        ]
+      },
+      "default_visual": {
+        "color": [
+          0.2,
+          0.8,
+          0.2
+        ],
+        "opacity": 1.0
+      },
+      "custom_visual": null
+    },
+    {
+      "semantic_id": 4,
+      "name": "medium_high_temperature",
+      "parent": "transition_zones",
+      "aliases": [
+        "中高温区"
+      ],
+      "description": "Medium-high temperature zone approaching combustion core",
+      "gaussian_count": 53642,
+      "index_range": [
+        161413,
+        215054
+      ],
+      "centroid": [
+        0.012574016116559505,
+        -0.0007354663102887571,
+        0.03314012289047241
+      ],
+      "bbox": {
+        "min": [
+          -0.5696312189102173,
+          -0.1562577486038208,
+          -0.5252143144607544
+        ],
+        "max": [
+          0.5691192150115967,
+          0.1471005529165268,
+          0.5549291968345642
+        ]
+      },
+      "default_visual": {
+        "color": [
+          0.6,
+          0.8,
+          0.0
+        ],
+        "opacity": 1.0
+      },
+      "custom_visual": null
+    },
+    {
+      "semantic_id": 5,
+      "name": "high_temperature",
+      "parent": "hot_zones",
+      "aliases": [
+        "高温区",
+        "hot zone"
+      ],
+      "description": "High temperature combustion region",
+      "gaussian_count": 53501,
+      "index_range": [
+        215055,
+        268555
+      ],
+      "centroid": [
+        0.021404074504971504,
+        3.5645065509015694e-05,
+        0.024577775970101357
+      ],
+      "bbox": {
+        "min": [
+          -0.5722057819366455,
+          -0.15532387793064117,
+          -0.49695974588394165
+        ],
+        "max": [
+          0.5694921016693115,
+          0.1482272446155548,
+          0.5527825355529785
+        ]
+      },
+      "default_visual": {
+        "color": [
+          0.9,
+          0.6,
+          0.0
+        ],
+        "opacity": 1.0
+      },
+      "custom_visual": null
+    },
+    {
+      "semantic_id": 6,
+      "name": "flame_front",
+      "parent": "hot_zones",
+      "aliases": [
+        "火焰前沿",
+        "flame boundary"
+      ],
+      "description": "Flame front where rapid oxidation occurs",
+      "gaussian_count": 59179,
+      "index_range": [
+        268556,
+        327734
+      ],
+      "centroid": [
+        -0.008073127828538418,
+        0.0015153804561123252,
+        0.047579746693372726
+      ],
+      "bbox": {
+        "min": [
+          -0.5708131790161133,
+          -0.15808281302452087,
+          -0.4505881667137146
+        ],
+        "max": [
+          0.5731238126754761,
+          0.15356872975826263,
+          0.54669189453125
+        ]
+      },
+      "default_visual": {
+        "color": [
+          1.0,
+          0.4,
+          0.0
+        ],
+        "opacity": 1.0
+      },
+      "custom_visual": null
+    },
+    {
+      "semantic_id": 7,
+      "name": "combustion_core",
+      "parent": "hot_zones",
+      "aliases": [
+        "燃烧核心",
+        "fire core",
+        "hottest zone"
+      ],
+      "description": "Core combustion region with highest temperature",
+      "gaussian_count": 61357,
+      "index_range": [
+        327735,
+        389091
+      ],
+      "centroid": [
+        -0.005628958344459534,
+        0.0026785433292388916,
+        0.0512489452958107
+      ],
+      "bbox": {
+        "min": [
+          -0.5693379640579224,
+          -0.16091211140155792,
+          -0.443829208612442
+        ],
+        "max": [
+          0.5705842971801758,
+          0.15116199851036072,
+          0.5408926606178284
+        ]
+      },
+      "default_visual": {
+        "color": [
+          1.0,
+          0.1,
+          0.0
+        ],
+        "opacity": 1.0
+      },
+      "custom_visual": null
+    },
+    {
+      "semantic_id": 8,
+      "name": "exhaust_plume",
+      "parent": "byproducts",
+      "aliases": [
+        "排气羽流",
+        "exhaust",
+        "smoke plume"
+      ],
+      "description": "Exhaust plume of combustion products",
+      "gaussian_count": 55460,
+      "index_range": [
+        389092,
+        444551
+      ],
+      "centroid": [
+        -0.024447260424494743,
+        0.004504728596657515,
+        0.030340004712343216
+      ],
+      "bbox": {
+        "min": [
+          -0.5690556764602661,
+          -0.14957381784915924,
+          -0.41471201181411743
+        ],
+        "max": [
+          0.5727621912956238,
+          0.1552102267742157,
+          0.48487159609794617
+        ]
+      },
+      "default_visual": {
+        "color": [
+          0.6,
+          0.3,
+          0.1
+        ],
+        "opacity": 0.8
+      },
+      "custom_visual": null
+    },
+    {
+      "semantic_id": 9,
+      "name": "turbulent_mixing",
+      "parent": "byproducts",
+      "aliases": [
+        "湍流混合区",
+        "turbulence zone"
+      ],
+      "description": "Turbulent mixing region between fuel and oxidizer",
+      "gaussian_count": 47020,
+      "index_range": [
+        444552,
+        491571
+      ],
+      "centroid": [
+        0.01864742487668991,
+        0.008337834849953651,
+        -0.014292154461145401
+      ],
+      "bbox": {
+        "min": [
+          -0.5785279870033264,
+          -0.1479976624250412,
+          -0.40188828110694885
+        ],
+        "max": [
+          0.5710475444793701,
+          0.14981555938720703,
+          0.4106895327568054
+        ]
+      },
+      "default_visual": {
+        "color": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "opacity": 0.6
+      },
+      "custom_visual": null
+    },
+    {
+      "semantic_id": 10,
+      "name": "ambient_gas",
+      "parent": "ambient",
+      "aliases": [
+        "环境气体",
+        "surrounding gas",
+        "background"
+      ],
+      "description": "Ambient gas surrounding the combustion region",
+      "gaussian_count": 45415,
+      "index_range": [
+        491572,
+        536986
+      ],
+      "centroid": [
+        0.01609974168241024,
+        0.005373925901949406,
+        -0.023343274369835854
+      ],
+      "bbox": {
+        "min": [
+          -0.5695906281471252,
+          -0.15514732897281647,
+          -0.3391915261745453
+        ],
+        "max": [
+          0.5692710876464844,
+          0.15165749192237854,
+          0.3703373968601227
+        ]
+      },
+      "default_visual": {
+        "color": [
+          0.2,
+          0.2,
+          0.3
+        ],
+        "opacity": 0.3
+      },
+      "custom_visual": null
+    }
+  ],
+  "groups": [
+    {
+      "name": "cool_zones",
+      "children_ids": [
+        1,
+        2
+      ],
+      "children_names": [
+        "low_temperature_region",
+        "medium_low_temperature"
+      ],
+      "aliases": [
+        "冷区",
+        "cool regions",
+        "低温区域"
+      ],
+      "description": "All low-temperature regions"
+    },
+    {
+      "name": "transition_zones",
+      "children_ids": [
+        3,
+        4
+      ],
+      "children_names": [
+        "medium_temperature",
+        "medium_high_temperature"
+      ],
+      "aliases": [
+        "过渡区",
+        "middle regions"
+      ],
+      "description": "Temperature transition regions"
+    },
+    {
+      "name": "hot_zones",
+      "children_ids": [
+        5,
+        6,
+        7
+      ],
+      "children_names": [
+        "high_temperature",
+        "flame_front",
+        "combustion_core"
+      ],
+      "aliases": [
+        "热区",
+        "hot regions",
+        "高温区域",
+        "火焰区"
+      ],
+      "description": "All high-temperature and combustion regions"
+    },
+    {
+      "name": "byproducts",
+      "children_ids": [
+        8,
+        9
+      ],
+      "children_names": [
+        "exhaust_plume",
+        "turbulent_mixing"
+      ],
+      "aliases": [
+        "副产物",
+        "byproducts",
+        "废气"
+      ],
+      "description": "Combustion byproducts and mixing regions"
+    }
+  ],
+  "spatial_relations": [
+    {
+      "from": "low_temperature_region",
+      "to": "medium_low_temperature",
+      "distance": 0.0223,
+      "adjacent": true,
+      "relative_position": "right_of"
+    },
+    {
+      "from": "low_temperature_region",
+      "to": "medium_temperature",
+      "distance": 0.0235,
+      "adjacent": true,
+      "relative_position": "right_of"
+    },
+    {
+      "from": "low_temperature_region",
+      "to": "medium_high_temperature",
+      "distance": 0.0449,
+      "adjacent": true,
+      "relative_position": "behind"
+    },
+    {
+      "from": "low_temperature_region",
+      "to": "high_temperature",
+      "distance": 0.0398,
+      "adjacent": true,
+      "relative_position": "behind"
+    },
+    {
+      "from": "low_temperature_region",
+      "to": "flame_front",
+      "distance": 0.0593,
+      "adjacent": true,
+      "relative_position": "behind"
+    },
+    {
+      "from": "low_temperature_region",
+      "to": "combustion_core",
+      "distance": 0.0625,
+      "adjacent": true,
+      "relative_position": "behind"
+    },
+    {
+      "from": "low_temperature_region",
+      "to": "exhaust_plume",
+      "distance": 0.0494,
+      "adjacent": true,
+      "relative_position": "behind"
+    },
+    {
+      "from": "low_temperature_region",
+      "to": "turbulent_mixing",
+      "distance": 0.0171,
+      "adjacent": true,
+      "relative_position": "right_of"
+    },
+    {
+      "from": "low_temperature_region",
+      "to": "ambient_gas",
+      "distance": 0.0185,
+      "adjacent": true,
+      "relative_position": "right_of"
+    },
+    {
+      "from": "medium_low_temperature",
+      "to": "medium_temperature",
+      "distance": 0.0154,
+      "adjacent": true,
+      "relative_position": "behind"
+    },
+    {
+      "from": "medium_low_temperature",
+      "to": "medium_high_temperature",
+      "distance": 0.051,
+      "adjacent": true,
+      "relative_position": "behind"
+    },
+    {
+      "from": "medium_low_temperature",
+      "to": "high_temperature",
+      "distance": 0.0411,
+      "adjacent": true,
+      "relative_position": "behind"
+    },
+    {
+      "from": "medium_low_temperature",
+      "to": "flame_front",
+      "distance": 0.0718,
+      "adjacent": true,
+      "relative_position": "behind"
+    },
+    {
+      "from": "medium_low_temperature",
+      "to": "combustion_core",
+      "distance": 0.0741,
+      "adjacent": true,
+      "relative_position": "behind"
+    },
+    {
+      "from": "medium_low_temperature",
+      "to": "exhaust_plume",
+      "distance": 0.0678,
+      "adjacent": true,
+      "relative_position": "left_of"
+    },
+    {
+      "from": "medium_low_temperature",
+      "to": "turbulent_mixing",
+      "distance": 0.0091,
+      "adjacent": true,
+      "relative_position": "above"
+    },
+    {
+      "from": "medium_low_temperature",
+      "to": "ambient_gas",
+      "distance": 0.0116,
+      "adjacent": true,
+      "relative_position": "left_of"
+    },
+    {
+      "from": "medium_temperature",
+      "to": "medium_high_temperature",
+      "distance": 0.0362,
+      "adjacent": true,
+      "relative_position": "behind"
+    },
+    {
+      "from": "medium_temperature",
+      "to": "high_temperature",
+      "distance": 0.0258,
+      "adjacent": true,
+      "relative_position": "behind"
+    },
+    {
+      "from": "medium_temperature",
+      "to": "flame_front",
+      "distance": 0.0585,
+      "adjacent": true,
+      "relative_position": "behind"
+    },
+    {
+      "from": "medium_temperature",
+      "to": "combustion_core",
+      "distance": 0.0603,
+      "adjacent": true,
+      "relative_position": "behind"
+    },
+    {
+      "from": "medium_temperature",
+      "to": "exhaust_plume",
+      "distance": 0.0582,
+      "adjacent": true,
+      "relative_position": "left_of"
+    },
+    {
+      "from": "medium_temperature",
+      "to": "turbulent_mixing",
+      "distance": 0.0163,
+      "adjacent": true,
+      "relative_position": "in_front_of"
+    },
+    {
+      "from": "medium_temperature",
+      "to": "ambient_gas",
+      "distance": 0.0242,
+      "adjacent": true,
+      "relative_position": "in_front_of"
+    },
+    {
+      "from": "medium_high_temperature",
+      "to": "high_temperature",
+      "distance": 0.0123,
+      "adjacent": true,
+      "relative_position": "right_of"
+    },
+    {
+      "from": "medium_high_temperature",
+      "to": "flame_front",
+      "distance": 0.0253,
+      "adjacent": true,
+      "relative_position": "left_of"
+    },
+    {
+      "from": "medium_high_temperature",
+      "to": "combustion_core",
+      "distance": 0.0259,
+      "adjacent": true,
+      "relative_position": "left_of"
+    },
+    {
+      "from": "medium_high_temperature",
+      "to": "exhaust_plume",
+      "distance": 0.0375,
+      "adjacent": true,
+      "relative_position": "left_of"
+    },
+    {
+      "from": "medium_high_temperature",
+      "to": "turbulent_mixing",
+      "distance": 0.0487,
+      "adjacent": true,
+      "relative_position": "in_front_of"
+    },
+    {
+      "from": "medium_high_temperature",
+      "to": "ambient_gas",
+      "distance": 0.0569,
+      "adjacent": true,
+      "relative_position": "in_front_of"
+    },
+    {
+      "from": "high_temperature",
+      "to": "flame_front",
+      "distance": 0.0374,
+      "adjacent": true,
+      "relative_position": "left_of"
+    },
+    {
+      "from": "high_temperature",
+      "to": "combustion_core",
+      "distance": 0.0381,
+      "adjacent": true,
+      "relative_position": "left_of"
+    },
+    {
+      "from": "high_temperature",
+      "to": "exhaust_plume",
+      "distance": 0.0464,
+      "adjacent": true,
+      "relative_position": "left_of"
+    },
+    {
+      "from": "high_temperature",
+      "to": "turbulent_mixing",
+      "distance": 0.0398,
+      "adjacent": true,
+      "relative_position": "in_front_of"
+    },
+    {
+      "from": "high_temperature",
+      "to": "ambient_gas",
+      "distance": 0.0485,
+      "adjacent": true,
+      "relative_position": "in_front_of"
+    },
+    {
+      "from": "flame_front",
+      "to": "combustion_core",
+      "distance": 0.0046,
+      "adjacent": true,
+      "relative_position": "behind"
+    },
+    {
+      "from": "flame_front",
+      "to": "exhaust_plume",
+      "distance": 0.024,
+      "adjacent": true,
+      "relative_position": "in_front_of"
+    },
+    {
+      "from": "flame_front",
+      "to": "turbulent_mixing",
+      "distance": 0.0677,
+      "adjacent": true,
+      "relative_position": "in_front_of"
+    },
+    {
+      "from": "flame_front",
+      "to": "ambient_gas",
+      "distance": 0.075,
+      "adjacent": true,
+      "relative_position": "in_front_of"
+    },
+    {
+      "from": "combustion_core",
+      "to": "exhaust_plume",
+      "distance": 0.0282,
+      "adjacent": true,
+      "relative_position": "in_front_of"
+    },
+    {
+      "from": "combustion_core",
+      "to": "turbulent_mixing",
+      "distance": 0.0701,
+      "adjacent": true,
+      "relative_position": "in_front_of"
+    },
+    {
+      "from": "combustion_core",
+      "to": "ambient_gas",
+      "distance": 0.0777,
+      "adjacent": true,
+      "relative_position": "in_front_of"
+    },
+    {
+      "from": "exhaust_plume",
+      "to": "turbulent_mixing",
+      "distance": 0.0622,
+      "adjacent": true,
+      "relative_position": "in_front_of"
+    },
+    {
+      "from": "exhaust_plume",
+      "to": "ambient_gas",
+      "distance": 0.0673,
+      "adjacent": true,
+      "relative_position": "in_front_of"
+    },
+    {
+      "from": "turbulent_mixing",
+      "to": "ambient_gas",
+      "distance": 0.0099,
+      "adjacent": true,
+      "relative_position": "in_front_of"
+    }
+  ],
+  "guided_tours": [
+    {
+      "name": "temperature_gradient",
+      "description": "Step-by-step tour from low to high temperature regions",
+      "steps": [
+        {
+          "action_type": "show",
+          "target": "all",
+          "narration": "This is a combustion simulation dataset containing multiple temperature regions."
+        },
+        {
+          "action_type": "isolate",
+          "target": "cool_zones",
+          "narration": "First, the low-temperature regions, far from the combustion core."
+        },
+        {
+          "action_type": "isolate",
+          "target": "transition_zones",
+          "narration": "Next, the transition zones where temperature gradually increases."
+        },
+        {
+          "action_type": "isolate",
+          "target": "hot_zones",
+          "narration": "The hottest regions, including the flame front and combustion core."
+        },
+        {
+          "action_type": "highlight",
+          "target": "combustion_core",
+          "narration": "The combustion core is the highest temperature region."
+        },
+        {
+          "action_type": "reset",
+          "target": "all"
+        }
+      ]
+    }
+  ],
+  "action_schema": {
+    "supported_actions": [
+      "show",
+      "hide",
+      "highlight",
+      "set_opacity",
+      "set_color",
+      "isolate",
+      "reset",
+      "explain",
+      "guided_tour"
+    ]
+  }
+}

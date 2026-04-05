@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b71fae31e6c7d438e8566dc713e666, type: 3}
+  m_Name: unified_scene
+  m_EditorClassIdentifier: 
+  m_FormatVersion: 20240801
+  m_SplatCount: 38851
+  m_BoundsMin: {x: -0.1922872, y: -0.9922993, z: -0.4785729}
+  m_BoundsMax: {x: 0.4226267, y: 0.87997526, z: -0.16382362}
+  m_DataHash:
+    serializedVersion: 2
+    Hash: 261150cb78e62e354a4c773156364a75
+  m_LayerInfo:
+  - x: 0
+    y: 11187
+  - x: 1
+    y: 992
+  - x: 2
+    y: 16161
+  - x: 3
+    y: 1268
+  - x: 4
+    y: 1367
+  - x: 5
+    y: 3203
+  - x: 6
+    y: 4673
+  m_PosFormat: 0
+  m_ScaleFormat: 0
+  m_SHFormat: 0
+  m_ColorFormat: 0
+  m_clusteredSHData: {fileID: 0}
+  m_layerData:
+  - layer: 0
+    m_PosData: {fileID: 4900000, guid: 5b3a79125ff800c44ab83d597e5f276b, type: 3}
+    m_ColorData: {fileID: 4900000, guid: 3133f95afa09eb54b8a0273a07075528, type: 3}
+    m_OtherData: {fileID: 4900000, guid: 3ac751ba26c66c743864b47c7674039e, type: 3}
+    m_SHData: {fileID: 4900000, guid: 191294a1c34dacc4a8ebe51b7f1ff3c4, type: 3}
+    m_ChunkData: {fileID: 0}
+  - layer: 1
+    m_PosData: {fileID: 4900000, guid: dc9c58352fdee4b4d80461ee6a534b5f, type: 3}
+    m_ColorData: {fileID: 4900000, guid: 9cb281c46998ee2489da2c0c75d8947d, type: 3}
+    m_OtherData: {fileID: 4900000, guid: 4c45f8007ed8cc247a8bbb62bad50248, type: 3}
+    m_SHData: {fileID: 4900000, guid: f1895fbb162bc3642ad29bcd4344d940, type: 3}
+    m_ChunkData: {fileID: 0}
+  - layer: 2
+    m_PosData: {fileID: 4900000, guid: 5c3490beb087a544e92167a000ebb4ab, type: 3}
+    m_ColorData: {fileID: 4900000, guid: 82e76038642b6b64b826604bb8e6045c, type: 3}
+    m_OtherData: {fileID: 4900000, guid: 80c2e0939081ed243a4c49452f794b75, type: 3}
+    m_SHData: {fileID: 4900000, guid: a2ac6fcd0c096894f9770465afc60d8e, type: 3}
+    m_ChunkData: {fileID: 0}
+  - layer: 3
+    m_PosData: {fileID: 4900000, guid: 46db4b3c3b15b4147b7822c1387bc61e, type: 3}
+    m_ColorData: {fileID: 4900000, guid: 791459fd0ca09ca47a1871b8b85df08b, type: 3}
+    m_OtherData: {fileID: 4900000, guid: c68e5eba2f9880b44a998d3363b9de7e, type: 3}
+    m_SHData: {fileID: 4900000, guid: f2c6794236649fe4aa59ddace6c9a5bf, type: 3}
+    m_ChunkData: {fileID: 0}
+  - layer: 4
+    m_PosData: {fileID: 4900000, guid: 7a16637618fe8414ca6ae6533297dc49, type: 3}
+    m_ColorData: {fileID: 4900000, guid: 2710623d94ef0fa48a0dde6793f99ca4, type: 3}
+    m_OtherData: {fileID: 4900000, guid: b169723b8aadc3940bfe7f950d2ee320, type: 3}
+    m_SHData: {fileID: 4900000, guid: 79fef3698be8fdf4f99dd04c153da63d, type: 3}
+    m_ChunkData: {fileID: 0}
+  - layer: 5
+    m_PosData: {fileID: 4900000, guid: cbea5cf5d3c86944b9b23ec201c23890, type: 3}
+    m_ColorData: {fileID: 4900000, guid: 78db46adc1b8d614eb01dc11c996afc3, type: 3}
+    m_OtherData: {fileID: 4900000, guid: a2e7672f0633641489afc2eb6f6d978c, type: 3}
+    m_SHData: {fileID: 4900000, guid: 5a5b4c723c54d7c4e878cf717102c6d3, type: 3}
+    m_ChunkData: {fileID: 0}
+  - layer: 6
+    m_PosData: {fileID: 4900000, guid: c2d37cdc71e2673449cf40af1e7013bc, type: 3}
+    m_ColorData: {fileID: 4900000, guid: 930b761d7accd2a44ab6f2faa9afa187, type: 3}
+    m_OtherData: {fileID: 4900000, guid: d1a64cf67d4537f4c9c0a590bced8158, type: 3}
+    m_SHData: {fileID: 4900000, guid: 2cc116ba56ca42047ab5b2f5c31d2825, type: 3}
+    m_ChunkData: {fileID: 0}
+  m_Cameras: []
